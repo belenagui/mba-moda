@@ -13,7 +13,7 @@ const CartWidget = () => {
 
         </box>
         <Divider/>
-        <box>
+        <box className = 'carritoContainer'>
           <p>5</p>
 
         </box>

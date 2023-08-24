@@ -14,19 +14,19 @@ import CartWidget from './CartWidget'
 
 const NavBar = () => {
   return (
-    <div>
+    <div className='navbar'>
       <Flex>
-        <Box p='4' bg='red.400'>
+        <Box p='4'>
           <h3>MBA-Moda</h3>
         </Box>
         <Spacer />
-        <Box p='4' bg='green.400'>
+        <Box p='4'>
           <Menu>
 
-            <MenuButton>
-              categories
+            <MenuButton className='menuButton'>
+              SHOP
             </MenuButton>
-            <MenuList>
+            <MenuList className='menuList'>
               <MenuItem>Abrigos</MenuItem>
               <MenuItem>Musculosas</MenuItem>
               <MenuItem>Pantalones</MenuItem>
@@ -35,7 +35,7 @@ const NavBar = () => {
           </Menu>
         </Box>
         <Spacer />
-        
+
         <Box p='4'>
               <CartWidget/>
         </Box>
