@@ -4,11 +4,13 @@ import {
   MenuButton,
   MenuList,
   MenuItem,
-  Flex,Box, Spacer,
+  Flex,
   MenuItemOption,
   MenuGroup,
   MenuOptionGroup,
   MenuDivider,
+  Box,
+  Spacer
 } from '@chakra-ui/react'
 import CartWidget from './CartWidget'
 
