@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const ItemCount = () => {
 
-    const contador = 3
+    const [contador, setContador] = useState(0)
     const onAdd = () =>{
-        alert(contador)
+        alert("Gracias!! Acabas de comprar: " + contador + "Productos")
+        setContador(0)
     }
 
     return (
     <>
-      <div>ItemCount</div>
+      <div className='center'>
+
+
+
+        
+      </div>
       <p>{contador}</p>
       <button onClick={onAdd}>Mostrar Cantidad</button>
     </>
