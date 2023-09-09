@@ -24,7 +24,7 @@ const ItemDetailContainer = () => {
     {
         product.map((p) =>{
             return(
-                <ItemDetail product={product}/>
+                <ItemDetail product={p}/>
             )
         })
     }

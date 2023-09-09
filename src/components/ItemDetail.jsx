@@ -10,7 +10,7 @@ const ItemDetail = ({product}) => {
     <Card maxW='sm' bg='#F7E3AF'>
 <CardBody>
 <Image
-  src={producto.image}
+  src={product.image}
   
   borderRadius='lg'
 />
