@@ -17,12 +17,13 @@ return (
     <NavBar/>
 
     <Routes>
-     {/*  <ItemListContainer />
-      <ItemDetailContainer/> */}
-      <Route exact path='/' element={<Home/>}/>
-      <Route exact path='/about' element={<About/>}/>
-      <Route exact path='/Cart' element={<Cart/>}/>
-      <Route exact path='/item' element={<ItemDetailContainer/>}/>
+
+      <Route exact path="/" element={<ItemListContainer />}/>
+      <Route path="/category/:category" element={<ItemListContainer />}/>
+      <Route exact path="/item/:id" element={<ItemDetailContainer/>}/>
+      <Route exact path="/" element={<Home/>}/>
+      <Route exact path="/about" element={<About/>}/>
+      <Route exact path="/Cart" element={<Cart/>}/>
 
     </Routes>
     
