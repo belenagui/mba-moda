@@ -7,6 +7,7 @@ import { useParams } from 'react-router-dom'
 const ItemDetail = ({product}) => {
 
   const {id} = useParams()
+  const filterProduct = product.filter((product)=>product.id==id)
   return (
     <div>
 

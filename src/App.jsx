@@ -17,7 +17,7 @@ return (
     <NavBar/>
 
     <Routes>
-      {/* <ItemListContainer />
+     {/*  <ItemListContainer />
       <ItemDetailContainer/> */}
       <Route exact path='/' element={<Home/>}/>
       <Route exact path='/about' element={<About/>}/>
