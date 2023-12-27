@@ -21,7 +21,7 @@ const ItemCount = () => {
                 <p className='md-2'>{contador}</p>
             </Box>
             <Box px="2">
-                <button className='md-2' onClick={() => contador < 10? setContador(contador - 1) : setContador(0)}>-</button>
+                <button className='md-2' onClick={() => contador > 0? setContador(contador - 1) : setContador(0)}>-</button>
             </Box>
             <Box px="2">
                 <button className='md-2' onClick={onAdd}> Comprar </button>
